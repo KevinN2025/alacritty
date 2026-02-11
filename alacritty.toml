@@ -1,0 +1,45 @@
+[window]
+opacity = 0.95
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+# themes
+[general]
+import = [
+  #  "~/.config/alacritty/themes/themes/kanagawa_wave.toml"
+    "~/.config/alacritty/themes/themes/gruber_darker.toml"
+  # "~/.config/alacritty/themes/themes/rose_pine_moon.toml"
+]
+
+[window.padding]
+x = 12
+y = 12
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "Hack Nerd Font"
+
+[font.bold]
+family = "Hack Nerd Font"
+
+[font.italic]
+family = "Hack Nerd Font"
+
+[font.bold_italic]
+family = "Hack Nerd Font"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[keyboard]
+bindings = [
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
+
+[env]
+TERM = "xterm-256color"
