@@ -1,0 +1,29 @@
+[colors.primary]
+background = "#000000"  # base00
+foreground = "#c1c1c1"  # base05
+
+[colors.cursor]
+text = "#000000"
+cursor = "#c1c1c1"
+
+[colors.normal]
+black   = "#000000"  # base00
+red     = "#5f8787"  # base08
+green   = "#f8f7f2"  # base0B
+yellow  = "#79241f"  # base0A
+blue    = "#888888"  # base0D
+magenta = "#999999"  # base0E
+cyan    = "#aaaaaa"  # base0C
+white   = "#c1c1c1"  # base05
+
+[colors.bright]
+black   = "#333333"  # base03
+red     = "#5f8787"
+green   = "#f8f7f2"
+yellow  = "#79241f"
+blue    = "#888888"
+magenta = "#999999"
+cyan    = "#aaaaaa"
+white   = "#ffffff"
+
+
