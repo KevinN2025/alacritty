@@ -7,8 +7,14 @@ decorations_theme_variant = "Dark"
 [general]
 import = [
   #  "~/.config/alacritty/themes/themes/kanagawa_wave.toml"
-    "~/.config/alacritty/themes/themes/gruber_darker.toml"
+#    "~/.config/alacritty/themes/themes/gruber_darker.toml"
+#    "~/.config/alacritty/themes/themes/dracula_plus.toml"
   # "~/.config/alacritty/themes/themes/rose_pine_moon.toml"
+   #"~/.config/alacritty/themes/themes/everforest_dark.toml"
+  # "~/.config/alacritty/themes/themes/enfocado_dark.toml"
+   #"~/.config/alacritty/themes/themes/venom_black.toml"
+   "~/.config/alacritty/themes/themes/ashen.toml"
+
 ]
 
 [window.padding]
@@ -16,7 +22,7 @@ x = 12
 y = 12
 
 [font]
-size = 14.0
+size = 19.0
 
 [font.normal]
 family = "Hack Nerd Font"
